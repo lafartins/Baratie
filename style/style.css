@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+img{
+    border-radius: 8px;
+}
 header{
     
     min-height: 150px;
@@ -54,15 +57,17 @@ p{
 }
 
 .texto1{
-    background-image: linear-gradient(to bottom, rgb(0, 251, 201), white);
-    color: rgb(13, 12, 12);
+    background-image: linear-gradient(to bottom, rgb(3, 84, 161), rgba(4, 247, 142, 0.745));
+    color: white;
     padding-top: 5vh;
     padding-bottom: 5vh;
     text-align: center;
+    border-top: 3px solid red;
+    border-bottom: 4px solid red;
 }
 
 .texto1 h1{
-    color: rgba(14, 13, 13, 0.89);
+    color: white;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 20px;
@@ -95,14 +100,16 @@ p{
     background-image: linear-gradient(to bottom, rgb(88, 87, 86), white);
     text-align: center;
     
-    font-family: 'Amatic SC', cursive;
 }
-.container{
-    display: inline;
-    
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        line-height: 2em;
+
+
+.container h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+}
+.container .risoto{
+    width: 400px;
+    height: 500px;
 }
 .imagem3{
     background-image: url(/style/cozinheiros.png);
