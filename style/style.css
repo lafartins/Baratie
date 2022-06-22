@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +25,7 @@ a {
     text-decoration: none;
     letter-spacing: 4px;
     text-transform: uppercase;
+    padding-left: 70px;
 }
 a:hover{
     border-radius: 10px;
@@ -36,4 +38,87 @@ a:hover{
 }
 .linha {
 	border:3px solid #fa0909;
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.texto1{
+    background-image: linear-gradient(to bottom, rgb(0, 251, 201), white);
+    color: rgb(13, 12, 12);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.texto1 h1{
+    color: rgba(14, 13, 13, 0.89);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+}
+.texto1 p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+.imagem1{
+    background-image: url(/style/one-piece-baratie-postcover.jpg);
+    background-color: rgb(127, 197, 255);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}   
+
+.texto2{
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(88, 87, 86), white);
+    text-align: center;
+    
+    font-family: 'Amatic SC', cursive;
+}
+.container{
+    display: inline;
+    
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+}
+.imagem3{
+    background-image: url(/style/cozinheiros.png);
+    background-attachment: fixed;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
