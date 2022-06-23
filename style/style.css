@@ -12,11 +12,11 @@ header{
     text-align: center;
     padding-right: 10px;
     padding-left: 10px;
-    background-image: linear-gradient(to top, rgb(3, 84, 161), white);
+    background-image: linear-gradient(to top, rgb(3, 202, 163), white);
 }
 nav{
     display: flex;
-    background-image: linear-gradient(to bottom, rgb(3, 84, 161));
+    background-image: linear-gradient(to bottom, rgb(3, 202, 163));
     justify-content: center;
     align-items: center;
     font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
@@ -128,6 +128,23 @@ p{
     font-size: 3rem;
 }
 
+.sanji{
+    background-image: url(/style/sobremesa.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+.sanji p{
+    background-color: rgba(255, 0, 76, 0.477);
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+}
+
 
 
 
@@ -136,8 +153,10 @@ p{
 
 
 footer{
-    background-color: black;
+    background-image: linear-gradient(to bottom, rgb(3, 84, 161), rgb(3, 202, 163) );
     color: white;
     text-align: center;
     padding: 30px;
 }
+
+/*rgb(3, 84, 161)*/
